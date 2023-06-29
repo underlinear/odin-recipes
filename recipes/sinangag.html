@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinangag</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align:center;
+            text-shadow:2px 2px rgba(0,0,0,0.3);
+            margin-bottom:20px;
+        }
+        #content {
+            width:400px;
+            background-color:lightgrey;
+            margin:auto;
+        }
+        #content img {
+            width:100%;
+        }
+        #content p {
+            text-align:center;
+            text-wrap:balance;
+            padding:20px;
+        }
+        #flexbox {
+            display:flex;
+            justify-items:space-around;
+            align-items:stretch;
+            flex-wrap:wrap;
+            margin:150px;
+            gap:50px;
+        }
+        #flexbox ul, #flexbox ol {
+            flex:1;
+            background-color:bisque;
+            text-align:justify;
+            padding:50px;
+            border-radius:20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sinangag</h1>
+    <div id="content">
+        <img src="https://www.allrecipes.com/thmb/DvRGI-REChMnOr-fEqHN7qIIwkk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/7622909-b26a1d02375e47348a8bf7a264f7eb63.jpg" alt="Sinangag Rice">
+        <p>This super-delicious rice can be made mostly ahead of time. (You need the steamed rice to cool and dry out a bit before you fry it anyway.) The final result is addictive and goes with everything on this menu, so I like to make two batches—one plain and one with the optional turmeric, which adds a little extra flavor and a pretty orange color.</p>
+    </div>
+    <div id="flexbox">
+        <ul>
+            <li>2 cups uncooked jasmine rice</li>
+            <li>1 ½ cups water</li>
+            <li>½ (15 ounce) can unsweetened coconut cream</li>
+            <li>2 teaspoons ground turmeric (Optional)</li>
+            <li>¼ teaspoon salt</li>
+            <li>3 tablespoons coconut oil</li>
+            <li>¼ cup finely chopped garlic</li>
+            <li>2 tablespoons fish sauce</li>
+        </ul>
+        <ol>
+            <li>Put rice in a large bowl with enough water to cover by a few inches. Swirl with your fingers, then drain. Repeat until the water runs clear, about 3 times.</li>
+            <li>Stir together rice, 1 1/2 cups water, coconut cream, turmeric, and salt in a saucepan. Bring to a boil; reduce heat and simmer, covered, until rice is tender and liquid is absorbed, about 20 minutes. Chill, uncovered, 2 to 4 hours or overnight.</li>
+            <li>Heat coconut oil in a 12-inch skillet or wok over high heat. Add garlic; cook until it just begins to brown, about 1 minute. Add rice and spread in an even layer. Cook, without stirring, until lightly browned and crisp on the bottom, about 4 minutes. Add fish sauce. Cook, stirring, until fully combined and heated through, about 2 minutes.</li>
+        </ol>
+    </div>
+</body>
+</html>
